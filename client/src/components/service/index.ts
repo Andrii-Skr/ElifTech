@@ -1,0 +1,1 @@
+export { getShopList } from "./getData";

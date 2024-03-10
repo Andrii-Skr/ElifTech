@@ -1,0 +1,10 @@
+.aside_btn {
+  height: 2em;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border: none;
+}
+
+.clicked {
+  background-color: #4caf50;
+}

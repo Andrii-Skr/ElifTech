@@ -1,0 +1,22 @@
+.order_list {
+  height: 60dvh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.order_price {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+}
+
+.order_price > button {
+  width: 8rem;
+  height: 3rem;
+  border-radius: 20px;
+  border: none;
+  font-size: 1.5em;
+}
+.order_price > button:hover {
+  background-color: green;
+}

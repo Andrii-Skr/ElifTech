@@ -1,0 +1,41 @@
+.content_box {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(4, auto);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  grid-template-areas:
+    "img img img img"
+    "name name name price"
+    "desc desc desc desc"
+    "- - add add";
+}
+.img {
+  grid-area: img;
+  border-radius: 10px;
+}
+.name {
+  grid-area: name;
+  justify-self: left;
+  margin: 0;
+}
+.price {
+  grid-area: price;
+  margin: 0;
+}
+.description {
+  grid-area: desc;
+  justify-self: left;
+  margin: 0;
+}
+.add_btn {
+  grid-area: add;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: none;
+}
+
+.add_btn:active {
+  background-color: green;
+}
